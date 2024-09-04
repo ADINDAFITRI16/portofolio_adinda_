@@ -21,3 +21,16 @@ function sendEmail(){
       }
     );
 }
+
+{
+    "version":2,
+    "builds": [
+      { "src": "*.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+        {
+          "src": "/(.*)",
+          "dest": "/"
+        }
+    ]
+  }

@@ -1,6 +1,12 @@
 {
-  "version": 2,
-  "routes": [
-    { "src": "/(.*)", "dest": "/portofolio.html" }
+  "routes" : [
+    { 
+      "src" : "/",
+      "dest" : "/"
+    },
+     { 
+      "src" : "/portofolio",
+      "dest" : "/"
+    }
   ]
 }
